@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Player
+  - Enemy
+  - Checkpoint
+  - Boss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 124200267
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Platform
+    uniqueID: 1830435357
+    locked: 0
+  - name: Decoration
+    uniqueID: 96046405
+    locked: 0
+  - name: Player
+    uniqueID: 3124266975
+    locked: 0
+  - name: Foreground
+    uniqueID: 260518671
+    locked: 0
+  - name: UI
+    uniqueID: 2293026649
+    locked: 0
+  m_RenderingLayers:
+  - Default

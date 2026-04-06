@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebeeb49bb6a7654b881a89c8ac9c696, type: 3}
+  m_Name: Zone1_Palette
+  m_EditorClassIdentifier: Assembly-CSharp::TilesetPalette
+  tiles:
+  - tileName: floor_basic
+    sprite: {fileID: 585423026985724973, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 0
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 6b6b6b12a5b3c2b4da6fee86d3afc682, type: 2}
+  - tileName: wall_basic
+    sprite: {fileID: 5933706130234366317, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 1
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: e292360533592a940b2ac807075c87fa, type: 2}
+  - tileName: ceiling
+    sprite: {fileID: -5328467445698847917, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 2
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: f0f41199a336c144dad88fee581d4950, type: 2}
+  - tileName: floor_cracked
+    sprite: {fileID: 8341648747143828280, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 0
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: b394ee9f9c90e2b47beb20d09eac9ace, type: 2}
+  - tileName: wall_edge_left
+    sprite: {fileID: -6331799019643594608, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 1
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: cef12fcb0e7c4494e86be4ed56519a58, type: 2}
+  - tileName: wall_edge_right
+    sprite: {fileID: 6859843197881272336, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 1
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: cef12fcb0e7c4494e86be4ed56519a58, type: 2}
+  - tileName: wall_corner_tl
+    sprite: {fileID: -3160225257875796833, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 1
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: ae667b68894a0694dbf73d91ab7d0f2b, type: 2}
+  - tileName: wall_corner_tr
+    sprite: {fileID: 6266002012549033750, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 1
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 4a4dd94983c7d5a4cb5a00de258b3ef7, type: 2}
+  - tileName: wall_corner_bl
+    sprite: {fileID: -155027848511588616, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 1
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 9428a99ca37141b469539aabfb06ec63, type: 2}
+  - tileName: wall_corner_br
+    sprite: {fileID: -6868113250929626281, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 1
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 61e4538f066af4246b473ac44604592a, type: 2}
+  - tileName: torch_mount
+    sprite: {fileID: -4708958649907922418, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 4
+    hasCollision: 0
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 7ad9ff17a08600c4c9fb15eb0f78e218, type: 2}
+  - tileName: void_gap
+    sprite: {fileID: -1492071169961025298, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 4
+    hasCollision: 0
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 7df9b005fa204654a924a090545bf327, type: 2}
+  - tileName: ledge
+    sprite: {fileID: 2644521671943548106, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 0
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 401322333a0b0264a8e1fac85ad92171, type: 2}
+  - tileName: wall_to_ceiling
+    sprite: {fileID: 6843970067810057827, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 2
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 401322333a0b0264a8e1fac85ad92171, type: 2}
+  - tileName: dither_transition
+    sprite: {fileID: 9116946965031582146, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 3
+    hasCollision: 0
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 3adb8d3fd63672149891b3342e6b7849, type: 2}
+  - tileName: ash_pile
+    sprite: {fileID: -2324448441517743726, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 3
+    hasCollision: 0
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: e8cf70277eabd814c9a207d45ee9053a, type: 2}
+  - tileName: urn_rubble
+    sprite: {fileID: 8518002241412868948, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 3
+    hasCollision: 0
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: e02303192dceaf648a4bd89cc132c29c, type: 2}
+  - tileName: floor_transition
+    sprite: {fileID: -6909724222118385476, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 0
+    hasCollision: 1
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 1f8c4f8e484c95c4a9b3b9f83b883e6c, type: 2}
+  - tileName: teal_crack
+    sprite: {fileID: -2494871227675201397, guid: c95e6e92cf17f3044bbd46646e015f8c, type: 3}
+    tileType: 4
+    hasCollision: 0
+    isAnimated: 0
+    animationFrames: []
+    tileAsset: {fileID: 11400000, guid: 3adb8d3fd63672149891b3342e6b7849, type: 2}
